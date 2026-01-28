@@ -1,0 +1,8 @@
+"Time","{__name__=""container_memory_usage_bytes"", cluster=""kind-finance"", container=""transactions-service"", id=""/kubelet.slice/kubelet-kubepods.slice/kubelet-kubepods-burstable.slice/kubelet-kubepods-burstable-pod087c8e50_9227_4baa_9f99_12392edd469b.slice/cri-containerd-a4b5ca0702113493aa908f8a033934a8e0d1431bb75f043e4c998616cbb0bf59.scope"", image=""docker.io/elizaaugusta/transactions-service:latest"", instance=""finance-control-plane"", job=""integrations/kubernetes/cadvisor"", k8s_cluster_name=""kind-finance"", name=""a4b5ca0702113493aa908f8a033934a8e0d1431bb75f043e4c998616cbb0bf59"", namespace=""default"", node=""finance-control-plane"", pod=""transactions-service-59dd9c8966-ndkvs"", source=""kubernetes""}"
+2025-10-23 19:18:0 62763008
+2025-10-23 19:19:0 62763008
+2025-10-23 19:20:0 80658432
+2025-10-23 19:21:0 85757952
+2025-10-23 19:22:0 90181632
+2025-10-23 19:23:0 86171648
+2025-10-23 19:24:0 86167552
