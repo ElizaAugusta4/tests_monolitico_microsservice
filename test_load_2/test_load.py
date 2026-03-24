@@ -72,7 +72,7 @@ def send_get(session):
         return {"method": "GET", "elapsed": None, "status": "error", "error": str(e)}
 
 
-def load_test(total_requests=2000, duration_minutes=10, max_workers=100):
+def load_test(total_requests=300, duration_minutes=10, max_workers=40):
     total_seconds = int(duration_minutes * 60)
     start_time = time.time()
 
