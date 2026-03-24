@@ -17,9 +17,9 @@ Utiliza o K6 para simular requisições alternadas entre POST e GET para o endpo
 **Resultados:** CPU e memória em CSV/JSON, gráficos gerados pelo script `generate_load_graphs1.py`.
 
 ### 2. Teste Estruturado (`test_load_2`)
-Foram enviadas exatamente 2000 requisições (POST e GET alternados) durante 10 minutos para o endpoint `/transactions` (`http://localhost:30090/transactions`).
+Foram enviadas exatamente 300 requisições (POST e GET alternados) durante 10 minutos para o endpoint `/transactions` (`http://localhost:30090/transactions`).
 **Configuração:**
-- 2000 requisições distribuídas ao longo de 10 minutos (~3,33 req/s)
+- 300 requisições distribuídas ao longo de 10 minutos 
 - Métodos: POST (criação) e GET (consulta)
 - Endpoint: `/transactions`
 **Resultados:** Respostas salvas em arquivos JSON na pasta `input-datas`. Gráficos gerados pelo script `generate_load_graphs2.py`.
